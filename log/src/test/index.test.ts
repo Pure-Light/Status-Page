@@ -4,9 +4,7 @@ import { StatusChecker } from "../status";
 import { ReportFile } from "../types";
 
 const sites: Array<[string, string]> = [
-  ["GitHub", "https://github.com"],
-  ["Facebook", "https://facebook.com"],
-  ["Google", "https://google.com"]
+
 ]
 
 for (const [site, url] of sites) {
