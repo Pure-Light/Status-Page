@@ -33,4 +33,8 @@ body {
     background-color: oklch(0.78 0.17 43.65) !important;
 }
 
-
+.header.svelte-1vm8yfm {
+    /* background: linear-gradient(180deg, var(--fallback-a, oklch(var(--a) / 1)) 60%, transparent 40%); */
+    background: none;
+    background-color: #0062cb !important;
+}
