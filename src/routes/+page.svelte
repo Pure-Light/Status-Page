@@ -10,7 +10,7 @@
 
 <div class="w-full bg-accent header min-h-[20vh] lg:min-h-[25vh] flex items-end justify-center">
 	<div class="h-full w-full mx-2 md:mx-12">
-	<h1 style="font-size:300%;color:#fff;">Pure-Light Status Page</h1>
+	<h1 style="font-size:300%;color:#fff;font-weight:200;">Pure-Light Status Page</h1>
 		<System systems={data.statusLog} />
 	</div>
 </div>
