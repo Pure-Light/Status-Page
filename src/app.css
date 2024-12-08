@@ -5,3 +5,12 @@
 body {
 	@apply bg-base-200 min-h-screen;
 }
+
+.badge-success {
+    border-color: transparent;
+    --tw-bg-opacity: 1;
+    background-color: var(--fallback-su, oklch(var(--su) / var(--tw-bg-opacity)));
+    --tw-text-opacity: 1;
+    color: oklch(1 0 0) !important;
+    font-weight: bolder !important;
+}
