@@ -51,8 +51,10 @@ jobs:
         id: metrics
         env:
           SOURCES: |
-            GitHub->https://github.com
-            Facebook->https://facebook.com
+            Pure-Light.com->${{ secrets.CHECK_PLT }}
+            Pure-Light API->${{ secrets.CHECK_PLTAPI }}
+            Pure-Light Payments->${{ secrets.CHECK_PAYMENTS }}
+            Pure-Light Customer Chat->${{ secrets.CHECK_CHAT }}
           GITHUB_TOKEN: ${{ github.token }}
           JOB_NAME: ${{ github.workflow }}
           ARTIFACT_NAME: ${{ env.ARTIFACT_NAME }}
