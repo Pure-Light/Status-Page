@@ -12,5 +12,25 @@ body {
     background-color: var(--fallback-su, oklch(var(--su) / var(--tw-bg-opacity)));
     --tw-text-opacity: 1;
     color: oklch(1 0 0) !important;
-    font-weight: bolder !important;
+    font-weight: bolder;
+    font-size: 110% !important;
+    padding-bottom: 2px !important;
 }
+
+.badge-error {
+    border-color: transparent;
+    --tw-bg-opacity: 1;
+    background-color: oklch(0.78 0.17 43.65);
+    --tw-text-opacity: 1;
+    color: oklch(1 0 0);
+    font-weight: bolder;
+    font-size: 110% !important;
+    padding-bottom: 2px !important;
+}
+
+.bg-error {
+    --tw-bg-opacity: 1;
+    background-color: oklch(0.78 0.17 43.65) !important;
+}
+
+
